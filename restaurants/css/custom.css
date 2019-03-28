@@ -1,0 +1,17 @@
+body{
+  justify-content: center;
+}
+.container{
+  height:auto;
+  display: inline-block;
+}
+.navLogo{
+  margin-left:-128px;
+}
+iframe{
+  margin-top:220px;
+}
+p{
+  padding-left:8px;
+  border-left:2px solid white;
+}

@@ -1,0 +1,29 @@
+body{
+  justify-content: center;
+}
+.container{
+  margin-top:160px;
+
+  justify-content: space-between;
+}
+.ContactUs{
+
+}
+.contactTitle{
+  font-size: 32px;
+  font-weight: 400;
+
+  border-bottom: 2px solid white;
+}
+.bold{
+  font-weight: 700;
+}
+input{
+  border-radius: 4px;
+}
+textarea{
+  border-radius: 4px;
+}
+.navLogo{
+  margin-left:-128px;
+}

@@ -1,0 +1,17 @@
+body{
+  justify-content: center;
+}
+.container{
+  margin-top:220px;
+  text-align: center;
+}
+img{
+  height:256px;
+  width:256px;
+}
+.butcher{
+  width:400px;
+}
+.navLogo{
+  margin-left:-128px;
+}
