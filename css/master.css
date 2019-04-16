@@ -9,7 +9,7 @@ html, body{
   display: flex;
 }
 body{
-  background-color: #824444;
+  background-color: #393e41;
 }
 .nav{
     position: fixed;
@@ -48,8 +48,6 @@ body{
 .item:hover{
   border-color: white;
 }
-
-
 
 .dropdownshop{
   overflow:hidden;
@@ -131,20 +129,20 @@ body{
   box-shadow: -1px 2px 2px 0px #232323;
 }
 .primary{
-  background-color: #460d0f;
+  background-color: #191308;
 }
 .primaryText{
   color: #ffffff;
 }
 .secondary{
-  background-color: #824444;
+  background-color: #6c6061;
 }
 .secondaryText{
   color: #ffffff;
 }
 .bg{
-  background-color: #CA8471;
+  background-color: #edf4f2;
 }
 .bgsec{
-  background-color: #F5F5F6;
+  background-color: #fcfcfc;
 }

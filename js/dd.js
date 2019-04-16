@@ -16,3 +16,22 @@ $(function() {
   });
 
 });
+
+$(function(){
+
+  $(".shopm").mouseover(function(){
+    $(".shopdm").css("display","block");
+  });
+  $(".shopdm").mouseover(function(){
+    $(".shopdm").css("display","block");
+  });
+
+
+  $(".shopm").mouseout(function(){
+    $(".shopdm").css("display", "none");
+  });
+  $(".shopdm").mouseout(function(){
+    $(".shopdm").css("display","none");
+  });
+
+});
