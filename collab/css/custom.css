@@ -2,7 +2,10 @@ body{
   justify-content: center;
 }
 .container{
-  margin-top:220px;
+  margin-top:5%;
+
+  padding: 16px;
+
   text-align: center;
 }
 img{

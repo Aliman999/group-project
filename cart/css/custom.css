@@ -3,7 +3,16 @@ body{
 }
 .container{
   margin-top:220px;
+
+  padding: 16px;
 }
 .navLogo{
   margin-left:-128px;
+}
+button{
+  border: 0px solid;
+  background-color: #393e41;
+  height: 20px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
 }

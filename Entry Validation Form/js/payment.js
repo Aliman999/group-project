@@ -16,13 +16,13 @@ function Paymentform(Name,CardNum)
 					}
 				  else
 					{
-			alert("Sorry, your credit card number must be 16 numeric digits");
+			alert("Sorry, your credit card number must be a 16 numeric digits");
 					return false;
         }
 		}
 		else
 		{
-		alert('Your name could not be accepted, please make sure it  contains letters only from the english alphabet');
+		alert('Please enter your Name');
 	return false;
 
 }

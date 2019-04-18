@@ -32,6 +32,7 @@ body{
 }
 .navRight{
   position: relative;
+  line-height: 4;
 }
 .item{
   text-decoration: none;
@@ -47,6 +48,17 @@ body{
 }
 .item:hover{
   border-color: white;
+}
+.cart{
+  position: absolute;
+  margin-top: 6px;
+
+  height: 32px;
+  width: 32px;
+
+  border:0 solid transparent;
+
+  line-height: 1;
 }
 
 .dropdownshop{
@@ -93,19 +105,18 @@ body{
 }
 .footer{
   position: absolute;
-  width: 90%;
+  width: 100%;
   height:64px;
 
   text-align: right;
 
   bottom:0px;
-  z-index: -1;
+  z-index: 1;
 }
 .copyRight{
   margin-right:16px;
   color:white;
 }
-
 
 
 

@@ -9,9 +9,16 @@ body{
   margin-left:-128px;
 }
 iframe{
-  margin-top:220px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 p{
   padding-left:8px;
+  margin-left: 16px;
   border-left:2px solid white;
+}
+.container{
+  height:550px;
+  margin-top:8%;
 }
