@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Locations - Online Clothing Retailer</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/cart.js"></script>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="css/custom.css">
   </head>
@@ -22,6 +24,7 @@
         <a class="item" href="../collab/index.html">Collaborators</a>
         <a class="item" href="../contact/index.html">Contact Us</a>
         <a class="item cart" href="../cart/index.html"><img src="../src/cart.png" alt="" class="cart"></a>
+        <a href="../cart/index.html"><span class='cart-items-count'>0</span></a>
       </div>
     </div>
     <div class="container secondary">
@@ -35,5 +38,10 @@
     <div class="footer primary shadow">
       <h4 class="copyRight">&copy; 2019 Dusty Tavern</h4>
     </div>
+    <script type="text/javascript">
+    $(function(){
+      Cart.initJQuery();
+    });
+    </script>
   </body>
 </html>
