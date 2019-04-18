@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Order Online - Dusty Tavern</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/cart.js"></script>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="css/custom.css">
   </head>
@@ -29,36 +31,7 @@
         Name:
         <input type="text" name="name" value=""> <br><br>
         Address:
-        <input type="text" name="addr" value=""> <br><br>
-        Select your Order:
-        <select class="selection" name="">
-          <option value="" hidden></option>
-          <option value="">--- Starters ---</option>
-          <option value="">Blue Cheese Chips</option>
-          <option value="">Fried Mac and Cheese</option>
-          <option value="">Poutine</option>
-          <option value="">Crispy Pork Ribs</option>
-          <option value="">BBQ Pulled Pork Sliders</option>
-          <option value="">Buffalo Wings</option>
-          <option value="">Buffalo Style Pig Wings</option>
-          <option value="">--- Burgers/Sancwiches ---</option>
-          <option value="">Classic Cheeseburger</option>
-          <option value="">Backyard Picnic Burger</option>
-          <option value="">Stuffed BBQ Burger</option>
-          <option value="">The New Porker</option>
-          <option value="">Black Bean & Salsa Veggie Burger</option>
-          <option value="">Philly Cheese Steak</option>
-          <option value="">Smoked Brisket "Reuben"</option>
-          <option value="">Smoked Turkey "Rachel"</option>
-          <option value="">Grilled Chicken Wrap</option>
-          <option value="">Grilled Portobello Wrap</option>
-          <option value="">--- BBQ ---</option>
-          <option value="">St. Louis style Ribs</option>
-          <option value="">BBQ Platter</option>
-          <option value="">Pulled Pork Platter</option>
-          <option value="">Beef Brisket Platter</option>
-          <option value="">Half Chicken Platter</option>
-        </select><br><br>
+        <input type="text" name="addr" value=""> <br><br><br><br>
         Payment Method:
         <select class="paymentMethod" name="">
           <option value="">Visa</option>
@@ -68,11 +41,36 @@
         </select> <br><br>
         Credit Card #: <input style="width:300px;" type="text" name="" value=""><br><br>
         CCV: <input type="text" name="" value=""><br><br>
+        <table class='cart-table'>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Product</th>
+              <th>quantity</th>
+              <th></th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody class='cart-line-items'>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan='4'>Subtotal</td>
+              <td class='cart-subtotal'></td>
+            </tr>
+          </tfoot>
+        </table>
+        <p class='cart-is-empty'>Your cart is empty.</p><br><br>
         <button type="button" name="button">Place Order</button>
       </form>
     </div>
     <div class="footer primary shadow">
       <h4 class="copyRight">&copy; 2019 Dusty Tavern</h4>
     </div>
+    <script type="text/javascript">
+    $(function(){
+      Cart.initJQuery();
+    });
+    </script>
   </body>
 </html>

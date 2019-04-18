@@ -59,6 +59,7 @@ body{
   border:0 solid transparent;
 
   line-height: 1;
+  z-index: -1;
 }
 
 .dropdownshop{
@@ -117,7 +118,14 @@ body{
   margin-right:16px;
   color:white;
 }
-
+.cart-items-count{
+  position: absolute;
+  color:white;
+  margin-top:-58px;
+  margin-left: 308px;
+  font-weight: 700;
+  text-shadow: -1px 2px 2px #000000;
+}
 
 
 

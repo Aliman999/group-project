@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>New Releases - Online Clothing Retailer</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/cart.js"></script>
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="css/custom.css">
   </head>
@@ -22,6 +24,7 @@
         <a class="item" href="../collab/index.html">Collaborators</a>
         <a class="item" href="../contact/index.html">Contact Us</a>
         <a class="item cart" href="../cart/index.html"><img src="../src/cart.png" alt="" class="cart"></a>
+        <a href="../cart/index.html"><span class='cart-items-count'>0</span></a>
       </div>
     </div>
 
@@ -45,7 +48,15 @@
               <option value="l">Large</option>
               <option value="xl">X-Large</option>
             </select>
-            <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+            <button
+            type="button"
+            class="cart-add"
+            data-id="001"
+            data-label='Black Beanie'
+            data-price='1299'
+            data-image='/src/new/blackbeanie.jpg'>
+            <img src="src/addtoCart.png" alt="">
+            </button>
           </form>
         </p>
       </div>
@@ -64,7 +75,15 @@
               <option value="l">Large</option>
               <option value="xl">X-Large</option>
             </select>
-            <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+            <button
+            type="button"
+            class="cart-add"
+            data-id="002"
+            data-label='Dark Grey Beanie'
+            data-price='1299'
+            data-image='/src/new/blackbeanie.jpg'>
+            <img src="src/addtoCart.png" alt="">
+            </button>
           </form>
         </p>
       </div>
@@ -83,7 +102,15 @@
               <option value="l">Large</option>
               <option value="xl">X-Large</option>
             </select>
-            <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+            <button
+            type="button"
+            class="cart-add"
+            data-id="003"
+            data-label='Light Grey Beanie'
+            data-price='1299'
+            data-image='/src/new/blackbeanie.jpg'>
+            <img src="src/addtoCart.png" alt="">
+            </button>
           </form>
         </p>
       </div>
@@ -102,7 +129,15 @@
               <option value="l">Large</option>
               <option value="xl">X-Large</option>
             </select>
-            <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+            <button
+            type="button"
+            class="cart-add"
+            data-id="004"
+            data-label='Navy Blue Beanie'
+            data-price='1299'
+            data-image='/src/new/blackbeanie.jpg'>
+            <img src="src/addtoCart.png" alt="">
+            </button>
           </form>
         </p>
       </div>
@@ -121,7 +156,15 @@
               <option value="l">Large</option>
               <option value="xl">X-Large</option>
             </select>
-            <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+            <button
+            type="button"
+            class="cart-add"
+            data-id="005"
+            data-label='Light Grey Beanie'
+            data-price='1299'
+            data-image='/src/new/blackbeanie.jpg'>
+            <img src="src/addtoCart.png" alt="">
+            </button>
           </form>
         </p>
       </div>
@@ -140,7 +183,15 @@
               <option value="l">Large</option>
               <option value="xl">X-Large</option>
             </select>
-            <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+            <button
+            type="button"
+            class="cart-add"
+            data-id="006"
+            data-label='Light Grey Beanie'
+            data-price='1299'
+            data-image='/src/new/blackbeanie.jpg'>
+            <img src="src/addtoCart.png" alt="">
+            </button>
           </form>
         </p>
       </div>
@@ -163,7 +214,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="301"
+              data-label='Black Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -181,7 +240,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="302"
+              data-label='Dark Grey Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -199,7 +266,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="303"
+              data-label='Light Grey Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -217,7 +292,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="304"
+              data-label='Navy Blue Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -235,7 +318,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="305"
+              data-label='Red Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -253,7 +344,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="306"
+              data-label='White Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -273,7 +372,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="307"
+              data-label='Black Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -291,7 +398,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="308"
+              data-label='Dark Grey Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -309,7 +424,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="309"
+              data-label='Light Grey Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -327,7 +450,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="310"
+              data-label='Navy Blue Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -345,7 +476,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="311"
+              data-label='Red Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -363,7 +502,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="312"
+              data-label='White Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -386,7 +533,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="201"
+              data-label='Womens Black Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -404,7 +559,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="202"
+              data-label='Womens Dark Grey Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -422,7 +585,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="203"
+              data-label='Womens Light Grey Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -440,25 +611,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
-            </form>
-          </p>
-        </div>
-        <div class="conItem bgsec">
-          <img class="itemImg" src="src/womens/female navy blue hoodie.jpg" alt="">
-          <p>
-            Navy Blue Hoodie <br>
-            Womens<br><br>
-            <span class="itemPrice">$14.99</span> <br>
-            <form class="" action="index.html" method="post">
-              <select class="" name="size">
-                <option value="xs">X-Small</option>
-                <option value="s">Small</option>
-                <option value="m">Medium</option>
-                <option value="l">Large</option>
-                <option value="xl">X-Large</option>
-              </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="204"
+              data-label='Womens Navy Blue Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -476,7 +637,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="205"
+              data-label='Womens Blue and Grey Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -494,7 +663,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="206"
+              data-label='Womens Blue Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -512,7 +689,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="207"
+              data-label='Womens Pink and Orange Hoodie'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -530,7 +715,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="208"
+              data-label='Womens Black Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -548,7 +741,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="209"
+              data-label='Womens Dark Grey Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -566,7 +767,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="210"
+              data-label='Womens Grey and Blue Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -584,7 +793,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="211"
+              data-label='Womens Light Grey Leggings'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -602,7 +819,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="212"
+              data-label='Womens Light Grey Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -620,7 +845,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="213"
+              data-label='Womens Navy Blue Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -638,7 +871,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="214"
+              data-label='Womens Orange and Pink Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -656,7 +897,15 @@
                 <option value="l">Large</option>
                 <option value="xl">X-Large</option>
               </select>
-              <button type="button" name="button"> <img src="src/addtoCart.png" alt=""> </button>
+              <button
+              type="button"
+              class="cart-add"
+              data-id="215"
+              data-label='Womens Blue Pants'
+              data-price='1499'
+              data-image='/src/new/blackbeanie.jpg'>
+              <img src="src/addtoCart.png" alt="">
+              </button>
             </form>
           </p>
         </div>
@@ -665,5 +914,10 @@
     <div class="footer primary">
       <h4 class="copyRight">&copy; 2019 Dusty Tavern</h4>
     </div>
+    <script type="text/javascript">
+    $(function(){
+      Cart.initJQuery();
+    });
+    </script>
   </body>
 </html>
