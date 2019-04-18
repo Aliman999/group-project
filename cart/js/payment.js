@@ -16,7 +16,7 @@ function Paymentform(Name,CardNum)
 					}
 				  else
 					{
-			alert("Sorry, your credit card number must be a 16 numeric digits");
+			alert("Sorry, your credit card number must be a valid card number");
 					return false;
         }
 		}

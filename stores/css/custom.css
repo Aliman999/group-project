@@ -4,6 +4,8 @@ body{
 .container{
   height:auto;
   display: inline-block;
+
+  border-radius: 4px;
 }
 .navLogo{
   margin-left:-128px;

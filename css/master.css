@@ -23,11 +23,6 @@ body{
 .navLeft{
   position: relative;
 
-  border-top:0px solid #000000;
-  border-right:2px solid #ffffff;
-  border-bottom:0px solid #000000;
-  border-left:0px solid #000000;
-
   line-height: 2;
 }
 .navRight{
@@ -120,7 +115,7 @@ body{
 }
 .cart-items-count{
   position: absolute;
-  color:white;
+  color:#00adb5;
   margin-top:-58px;
   margin-left: 308px;
   font-weight: 700;
@@ -148,13 +143,13 @@ body{
   box-shadow: -1px 2px 2px 0px #232323;
 }
 .primary{
-  background-color: #191308;
+  background-color: #161A1C;
 }
 .primaryText{
   color: #ffffff;
 }
 .secondary{
-  background-color: #6c6061;
+  background-color: #00adb5;
 }
 .secondaryText{
   color: #ffffff;

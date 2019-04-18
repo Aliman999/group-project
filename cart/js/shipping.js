@@ -6,12 +6,6 @@ function ValidateForm()
 					alert("Please Enter Your Shipping Address");
 					return false;
 					}
-		if (document.forms["myForm"]["Apt"].value == null
-            || document.forms["myForm"]["Apt"].value == "")
-			{
-			alert("Pleae enter your Apt number, type N/A if it doesnt apply to you");
-			return false;
-			}
                 if (document.forms["myForm"]["City"].value == null
 						|| document.forms["myForm"]["City"].value == "")
 						{

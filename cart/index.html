@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Order Online - Dusty Tavern</title>
+    <title>Cart - Online Clothing Retailer</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script type="text/javascript" src="../js/cart.js"></script>
@@ -27,21 +27,36 @@
         <a href="../cart/index.html"><span class='cart-items-count'>0</span></a>
       </div>
     </div>
-    <div class="container secondary">
-      <form class="orderOnline" action="index.html" method="post">
+    <div class="container secondary shadow">
+      <form name = "myForm" action = "http://www.WebsiteDevelopmentBook.com/FormEcho.php" method = "post" onsubmit = "return Paymentform(Name,CardNum), ValidateForm()" >
         Name:
-        <input type="text" name="name" value=""> <br><br>
+        <input type="text" name="Name" value=""> <br><br>
         Address:
-        <input type="text" name="addr" value=""> <br><br><br><br>
+        <input type="text" name="Address" value=""> <br><br>
+        City:
+        <input type = "text" name = "City" ><br/><br>
+        State:
+        <input type = "text" name = "State" /><br><br>
+        Zip:
+        <input type = "text" name = "Zip" ><br/><br>
+        Phone Number:
+        <input type = "text" name = "contact" /><br><br>
+        Email:
+        <input type = "text" name = "email" ><br><br><br>
+
+
+
         Payment Method:
         <select class="paymentMethod" name="">
           <option value="">Visa</option>
           <option value="">Master</option>
           <option value="">Discover</option>
-          <option value="">Paypal</option>
         </select> <br><br>
-        Credit Card #: <input style="width:300px;" type="text" name="" value=""><br><br>
+        Credit Card #: <input style="width:300px;" type="text" name="CardNum" value=""><br><br>
         CCV: <input type="text" name="" value=""><br><br>
+
+
+
         <table class='cart-table'>
           <thead>
             <tr>
@@ -62,16 +77,18 @@
           </tfoot>
         </table>
         <p class='cart-is-empty'>Your cart is empty.</p><br><br>
-        <button type="button" name="button">Place Order</button>
+        <button type="submit" name="button">Place Order</button>
       </form>
     </div>
     <div class="footer primary shadow">
-      <h4 class="copyRight">&copy; 2019 Dusty Tavern</h4>
+      <h4 class="copyRight">&copy; 2019 Online Clothing Retailer</h4>
     </div>
     <script type="text/javascript">
     $(function(){
       Cart.initJQuery();
     });
     </script>
+    <script src="js/payment.js"></script>
+    <script src="js/shipping.js"></script>
   </body>
 </html>

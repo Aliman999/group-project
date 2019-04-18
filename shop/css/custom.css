@@ -14,7 +14,7 @@ body{
   margin-top:-28px;
   border-radius: 4px;
 
-  background-color: #393e41;
+  background-color: #00adb5;
 }
 .navRight{
   margin-right:110px;
@@ -43,6 +43,8 @@ body{
 
   overflow-y: auto;
   overflow-x: hidden;
+
+  border-radius: 4px;
 }
 .conStarters{
   display: flex;

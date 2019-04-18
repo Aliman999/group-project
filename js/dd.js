@@ -1,0 +1,15 @@
+$("#nr").click(function(){
+    $("#nr").addClass('active');
+    $('#m').removeClass('active');
+    $('#w').removeClass('active');
+});
+$("#m").click(function(){
+    $('#m').addClass('active');
+    $('#nr').removeClass('active');
+    $('#w').removeClass('active');
+});
+$("#w").click(function(){
+    $('#w').addClass('active');
+    $('#nr').removeClass('active');
+    $('#m').removeClass('active');
+});
