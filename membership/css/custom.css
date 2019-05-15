@@ -1,0 +1,105 @@
+body{
+  justify-content: center;
+}
+table{
+  margin:0px;
+  padding:0px;
+
+}
+td{
+  margin:0px;
+  padding:8px;
+  width: 33.33%;
+}
+tr{
+  margin:0px;
+  padding:0px;
+}
+
+
+.title{
+  text-align: center;
+
+  height:38px;
+  width:auto;
+  padding-left: 8px;
+  padding-right:8px;
+
+  font-size: 32px;
+
+  margin-top:-28px;
+  border-radius: 4px;
+
+  background-color: #00adb5;
+}
+
+.padding{
+  padding: 16px;
+  padding-top: 0px;
+}
+.divider{
+  border-top: 1px solid black;
+}
+
+.container{
+  margin-top:100px;
+  margin-bottom: 100px;
+
+  width:80%;
+
+  padding-bottom: 16px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content:flex-start;
+  align-content: flex-start;
+}
+
+
+.memberServices{
+  position: absolute;
+  margin-top:-32px;
+  padding-left: 42px;
+}
+.memberRates{
+  position: absolute;
+  margin-top:-32px;
+  padding-left: 58px;
+}
+.rateDiscount{
+  padding-left: 16px;
+  font-style: italic;
+}
+
+.tab{
+  margin-left: 14px;
+}
+.extraTab{
+  margin-left: 24px;
+}
+
+
+
+
+
+
+.footer{
+  position: fixed;
+  height: 64px;
+
+  text-align: right;
+
+  bottom: 0px;
+}
+form{
+  margin-left:2px;
+
+  display: flex;
+
+  align-items: center;
+}
+button{
+  background-color: transparent;
+  border:0px;
+}

@@ -6,22 +6,6 @@ body{
 
   padding: 16px;
 
-  justify-content: space-between;
-  border-radius: 4px;
-}
-.contactTitle{
-  font-size: 32px;
-  font-weight: 400;
-
-  border-bottom: 2px solid white;
-}
-.bold{
-  font-weight: 700;
-}
-input{
-  border-radius: 4px;
-}
-textarea{
   border-radius: 4px;
 }
 button{
@@ -30,5 +14,10 @@ button{
   height: 20px;
   color:white;
   font-family: 'Montserrat', sans-serif;
+
+  border-radius: 4px;
+}
+table{
+  border: 1px solid black;
   border-radius: 4px;
 }

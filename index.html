@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr"  style="height:100%;">
   <head>
     <meta charset="utf-8">
-    <title>Online Clothing Retailer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easton Gym Co.</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/dd.js"></script>
@@ -10,33 +11,32 @@
     <link rel="stylesheet" href="custom.css">
   </head>
   <body style="height:100%;">
-    <div class="nav">
-
+    <div class="nav primary shadow">
+      <div class="navLogo">
+        <a href="#"><img class="logo" src="src/icon.png" alt=""></a>
+      </div>
       <div class="navLeft">
-        <a class="item" href="stores/index.html">Find Us</a>
-        <a class="item" id="nr" href="shop/index.html#newReleases">New Releases</a>
-        <a class="item" id="m" href="shop/index.html#Mens">Men</a>
-        <a class="item" id="w" href="shop/index.html#Womens">Women</a>
+        <a class="item" href="locations/index.html">LOCATIONS</a>
+        <a class="item" href="membership/index.html">MEMBERSHIP</a>
       </div>
-
       <div class="navRight">
-        <a class="item" href="collab/index.html">Collaborators</a>
-        <a class="item" href="contact/index.html">Contact Us</a>
+        <a class="item" href="community/index.html">COMMUNITY</a>
+        <a class="item" href="contact/index.html">CONTACT</a>
+        <a class="item" href="subscribe/index.html">SUBSCRIBE</a>
       </div>
-
     </div>
 
-    <div class="container">
-
-      <div class="conLogo">
-        <img class="conLogoImage" src="src/icon.png" alt="">
-      </div>
+    <div onclick="redirect" class="container">
 
       <div class="conName">
-        <h1>Online Clothing Retailer</br> <span>Functionality and Fashion</span></h1>
+        <h1>Easton Gym Co.</br> <span>Dominate Humbly</span></h1>
       </div>
 
     </div>
-    <script type="text/javascript" src="../js/dd.js"></script>
+    <script type="text/javascript">
+      function redirect(){
+        alert('Hello');
+      }
+    </script>
   </body>
 </html>
