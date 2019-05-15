@@ -9,7 +9,7 @@ html, body{
   display: flex;
 }
 body{
-  background-color: #4C4C4C;
+  background-color: #393e41;
 }
 .nav{
     position: fixed;
@@ -19,24 +19,16 @@ body{
     height:64px;
     justify-content: center;
     align-items: center;
-
-    background-color: #1e1e1e;
-}
-.navLogo{
-  margin-left:-128px;
 }
 .navLeft{
   position: relative;
 
   line-height: 2;
-
-  margin-right: 4px;
 }
 .navRight{
   position: relative;
   line-height: 4;
 }
-
 .item{
   text-decoration: none;
   color: #ffffff;
@@ -47,7 +39,7 @@ body{
   border:0 solid transparent;
   border-width: 0px 0px 2px 0px;
 
-  transition: 0.25s ease;
+  transition: 0.5s ease;
 }
 .item:hover{
   border-color: white;
@@ -92,6 +84,9 @@ body{
 .dropdownshop a:hover{
   border-color: white;
 }
+.dropdown
+
+
 
 .navLogo{
   display:inline-block;
@@ -102,9 +97,7 @@ body{
 .logo{
   height: 128px;
   width: 128px;
-  z-index: 0;
-  margin-top:8px;
-  padding-right: 8px;
+  z-index: 0
 }
 .footer{
   position: absolute;
@@ -150,16 +143,16 @@ body{
   box-shadow: -1px 2px 2px 0px #232323;
 }
 .primary{
-  background-color: #1e1e1e;
+  background-color: #161A1C;
 }
 .primaryText{
   color: #ffffff;
 }
 .secondary{
-  background-color: #f2f2f2;
+  background-color: #00adb5;
 }
 .secondaryText{
-  color: #000000;
+  color: #ffffff;
 }
 .bg{
   background-color: #edf4f2;
